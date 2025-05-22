@@ -36,12 +36,7 @@ Cluster Kafka gồm 1 node Kafka chạy trên Docker, tích hợp Kafka UI để
 
 3: http://localhost:8080 Mở UI Kafka:
 
-4: kafka = Kafka.new(
-seed_brokers: [
-"localhost:9092",
-],
-client_id: "rails-app"
-)
+4: useage:
 
 5:Kafka data sẽ lưu ở:
 ${DATA_DIR:-./data}/kafka1
